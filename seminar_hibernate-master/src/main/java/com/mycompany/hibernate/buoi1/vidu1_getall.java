@@ -23,8 +23,8 @@ public class vidu1_getall {
         Query query = session.createQuery("From LopHoc ");// truy vấn trên entity(HQL)
         List<LopHoc> list = query.getResultList();
         
-        for (LopHoc lopHoc : list) {
-            System.out.println(lopHoc.toString());
+        for (LopHoc haone : list) {
+            System.out.println(haone.toString());
         }
     }
 
